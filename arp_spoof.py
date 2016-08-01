@@ -1,4 +1,3 @@
-#죄송합니다... arp_spoofing이 너무 어려웠던지라... 한 부분까지 제출합니다 ㅠㅠ
 import netinfo
 import commands
 from ifparser import Ifcfg
