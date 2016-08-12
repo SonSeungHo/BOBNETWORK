@@ -36,4 +36,4 @@ while 1 :
 f.close()
 
 
-sniff(filter='tcp', prn=process_tcp_packet)
+
